@@ -47,7 +47,7 @@ export default function Home() {
                       {item.name}
                     </a>
                   ))}
-                  <a href="#asd" className="font-medium text-indigo-600 hover:text-indigo-500">
+                  <a href="/login" className="font-medium text-indigo-600 hover:text-indigo-500">
                     Log in
                   </a>
                 </div>

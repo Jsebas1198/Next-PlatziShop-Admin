@@ -1,8 +1,7 @@
-import React from 'react';
 import Header from '@components/Header';
 import Nav from '@common/Nav';
 
-const MainLayout = ({ children }) => {
+export default function MainLayout({ children }) {
   return (
     <>
       <div className="min-h-full">
@@ -14,6 +13,4 @@ const MainLayout = ({ children }) => {
       </div>
     </>
   );
-};
-
-export default MainLayout;
+}

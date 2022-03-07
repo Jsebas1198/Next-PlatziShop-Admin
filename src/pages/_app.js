@@ -1,6 +1,7 @@
-import '@styles/tailwind.css';
+import { ProviderAuth } from '@hooks/useAuth';
 import MainLayout from '@layout/MainLayout';
-import { ProviderAuth } from 'hooks/useAuth';
+import '@styles/tailwind.css';
+
 function MyApp({ Component, pageProps }) {
   return (
     <>

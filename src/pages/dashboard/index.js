@@ -1,12 +1,15 @@
 import endPoints from '@services/api';
 import useFetch from '@hooks/useFetch';
 import { Chart } from '@common/Chart';
+import { useState } from 'react';
+import Pages from '@components/Pages';
 
-const PRODUCT_LIMIT = 60;
-const PRODUCT_OFFSET = 60;
+const PRODUCT_LIMIT = 5;
 
 export default function Dashboard() {
-  const products = useFetch(endPoints.products.getProducts(PRODUCT_LIMIT, PRODUCT_OFFSET));
+  const [offsetProducts, setOffsetProducts] = useState(0);
+  const products = useFetch(endPoints.products.getProducts(PRODUCT_LIMIT, offsetProducts), offsetProducts);
+  const totalProducts = useFetch(endPoints.products.getProducts(0, 0)).length;
 
   const categoryNames = products?.map((product) => product.category);
   const categoryCount = categoryNames?.map((category) => category.name);
@@ -27,6 +30,7 @@ export default function Dashboard() {
   return (
     <>
       <Chart className="mb-8 mt-2" chartData={data} />
+      {totalProducts > 0 && <Pages totalItems={totalProducts} itemsPerPage={PRODUCT_LIMIT} setOffset={setOffsetProducts} neighbours={3}></Pages>}
       <div className="flex flex-col">
         <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
           <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">

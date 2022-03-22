@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import endPoints from '@services/api';
 import useFetch from '@hooks/useFetch';
 import { Chart } from '@common/Chart';

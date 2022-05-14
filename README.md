@@ -1,6 +1,6 @@
 # Shop administrator
 
-**Link to project:** https://fancy-llama-17fe9b.netlify.app/
+**Link to project:** https://taupe-rugelach-ad87a1.netlify.app
 
 ![platzipunks](https://user-images.githubusercontent.com/96799477/168430401-c0fc7115-17ee-4f1d-ab3c-c05e2395d625.png)
 

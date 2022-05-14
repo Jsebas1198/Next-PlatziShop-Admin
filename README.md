@@ -1,25 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Shop administrator
 
-## Getting Started
+**Link to project:** https://fancy-llama-17fe9b.netlify.app/
 
-First, run the development server:
+![platzipunks](https://user-images.githubusercontent.com/96799477/168430401-c0fc7115-17ee-4f1d-ab3c-c05e2395d625.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## How It's Made:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Tech used:** JavaScript, React, Next, React-Chartjs, Tailwind
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+An administration interface that is created in react, when the administrator is logged in, he/she can add a new product or delete one of the existing products, also, a chart is shown in the interface so administrator can know how many items of each category are left, a custom API brings all the information of the products, like the user name and the password. To test the app you can log in with the user: admin@mail.com and the password: admin123.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Optimizations
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+The UX and UI can be better, the site is not responsive.  
 
-## To test the admin dashboard 
+## Lessons Learned:
 
-email: admin@mail.com
-pass: admin123
+The use of chartjs to show specific categories or give another usage to this tool, the use of tailwind, acquire more knowledge about nextjs.
 
+## Examples:
+Take a look at these couple examples that I have in my own portfolio:
+
+**Project-ConfMerch:** https://github.com/Jsebas1198/Project-ConfMerch
+
+**React-TodoList-App:** https://github.com/Jsebas1198/React-TodoList-App
+
+**Wave-Portal-Interface:** https://github.com/Jsebas1198/Wave-Portal-Interface-WEB3

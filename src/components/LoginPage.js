@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useRef } from 'react';
 import { useRouter } from 'next/router';
 import { LockClosedIcon } from '@heroicons/react/solid';

@@ -2,7 +2,13 @@
 
 **Link to project:** https://taupe-rugelach-ad87a1.netlify.app
 
-![platzipunks](https://user-images.githubusercontent.com/96799477/168430401-c0fc7115-17ee-4f1d-ab3c-c05e2395d625.png)
+![shop_admin](https://user-images.githubusercontent.com/96799477/168450626-5e415fe2-db2a-469c-9eee-dd5fd5e08155.png)
+
+![shop_admin2](https://user-images.githubusercontent.com/96799477/168450628-bb7f752f-8055-4260-ab3e-cef020221c6b.png)
+
+![shop_admin3](https://user-images.githubusercontent.com/96799477/168450629-523a416b-73e5-4a4d-b8e6-d34ef7d5f340.png)
+
+![shop_admin4](https://user-images.githubusercontent.com/96799477/168450630-76713e3b-8395-46a1-8ac3-47949dea50fc.png)
 
 ## How It's Made:
 
